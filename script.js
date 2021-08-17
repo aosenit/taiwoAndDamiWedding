@@ -11,7 +11,7 @@ sr.reveal('.couple', {});
 sr.reveal('.galleryImageContainer', { interval: 200 });
 sr.reveal('iframe', { interval: 200 });
 
-let countDownDate = new Date('September 21, 2021 9:00:00').getTime();
+let countDownDate = new Date('September 11, 2021 9:00:00').getTime();
 let intervalSetter = setInterval(function () {
   let now = new Date().getTime();
   let total = countDownDate - now;
