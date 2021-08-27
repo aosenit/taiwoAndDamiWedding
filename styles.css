@@ -149,10 +149,10 @@ main{
 
 .storyContainer{
   position: relative;
-  height: 200vh;
+  height: 170vh;
   width: 100%;
   color: var(--text-color);
- overflow: hidden;
+  overflow: hidden;
 }
 
 .storyHeading{
@@ -204,6 +204,9 @@ main{
 .speech{
   font-size: 12px;
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .speech > h1 {
@@ -364,7 +367,7 @@ footer > p:nth-child(1) > span{
   font-size: 2em;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
     .countDown > h1 {
     font-size: 1.5rem;
   }
@@ -380,6 +383,10 @@ footer > p:nth-child(1) > span{
   .card > h3{
     font-size: .9rem;
   }
+
+  .gallery{
+  grid-template-columns: repeat(4, 1fr);
+}
 }
 
 
@@ -398,9 +405,7 @@ footer > p:nth-child(1) > span{
     font-size: 1rem;
   }
 
-  .gallery{
-  grid-template-columns: repeat(4, 1fr);
-}
+
 
   .countDown > h1 {
     font-size: 1rem;
