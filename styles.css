@@ -149,7 +149,7 @@ main{
 
 .storyContainer{
   position: relative;
-  height: 100vh;
+  height: 200vh;
   width: 100%;
   color: var(--text-color);
  overflow: hidden;
@@ -226,7 +226,7 @@ main{
 .gallery{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  height: 50vh;
+  height: 100vh;
   grid-gap: 20px;
   width: 100%;
    background-color: var(--main-color);
