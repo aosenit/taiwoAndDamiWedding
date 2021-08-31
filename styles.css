@@ -254,6 +254,20 @@ main{
   left: 0;
   position: absolute;
 }
+
+.imageOne, .imageThree, .imageSix, .imageSeven, .imageNine{
+ object-position: top;
+}
+
+.imageFour{
+  object-position: bottom;
+}
+
+.imageFive{
+  object-position: left;
+  object-fit: contain;
+}
+
 .countDown{
    background-color: var(--main-color);
   margin: 50px 0;
@@ -301,6 +315,9 @@ main{
    align-items: center;
 }
 
+.rsvp{
+  display: none;
+}
 .card{
   height: 80%;
   padding: 30px;
@@ -474,6 +491,10 @@ footer > p:nth-child(1) > span{
     height: auto;
     display: flex;
     flex-direction: column;
+  }
+
+  .rsvp{
+    display: block;
   }
 
   footer{
