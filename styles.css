@@ -384,14 +384,7 @@ footer > p:nth-child(1) > span{
   color: var(--style-color);
 
 }
- .scroll-up {
-  position: fixed;
-  bottom: 50%;
-  right: 0;
-  color: rgba(82, 81, 81, .4);
-  padding: 0.2em 0.5em;
-  font-size: 2em;
-}
+
 
 @media screen and (max-width: 1100px) {
     .countDown > h1 {
